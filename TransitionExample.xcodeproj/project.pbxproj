@@ -22,6 +22,8 @@
 		601C725A18A6C3BB00F817A0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 601C723918A6C3BB00F817A0 /* UIKit.framework */; };
 		601C726218A6C3BB00F817A0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 601C726018A6C3BB00F817A0 /* InfoPlist.strings */; };
 		601C726418A6C3BB00F817A0 /* TransitionExampleTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 601C726318A6C3BB00F817A0 /* TransitionExampleTests.m */; };
+		601C726F18A6C42F00F817A0 /* JRTMasterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 601C726E18A6C42F00F817A0 /* JRTMasterCell.m */; };
+		601C727218A6C7C800F817A0 /* JRTAnimationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 601C727118A6C7C800F817A0 /* JRTAnimationController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -56,6 +58,10 @@
 		601C725F18A6C3BB00F817A0 /* TransitionExampleTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "TransitionExampleTests-Info.plist"; sourceTree = "<group>"; };
 		601C726118A6C3BB00F817A0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		601C726318A6C3BB00F817A0 /* TransitionExampleTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransitionExampleTests.m; sourceTree = "<group>"; };
+		601C726D18A6C42F00F817A0 /* JRTMasterCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRTMasterCell.h; sourceTree = "<group>"; };
+		601C726E18A6C42F00F817A0 /* JRTMasterCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRTMasterCell.m; sourceTree = "<group>"; };
+		601C727018A6C7C800F817A0 /* JRTAnimationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRTAnimationController.h; sourceTree = "<group>"; };
+		601C727118A6C7C800F817A0 /* JRTAnimationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRTAnimationController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,6 +130,10 @@
 				601C724E18A6C3BB00F817A0 /* JRTDetailViewController.m */,
 				601C725018A6C3BB00F817A0 /* Images.xcassets */,
 				601C723C18A6C3BB00F817A0 /* Supporting Files */,
+				601C726D18A6C42F00F817A0 /* JRTMasterCell.h */,
+				601C726E18A6C42F00F817A0 /* JRTMasterCell.m */,
+				601C727018A6C7C800F817A0 /* JRTAnimationController.h */,
+				601C727118A6C7C800F817A0 /* JRTAnimationController.m */,
 			);
 			path = TransitionExample;
 			sourceTree = "<group>";
@@ -258,6 +268,8 @@
 				601C724218A6C3BB00F817A0 /* main.m in Sources */,
 				601C724618A6C3BB00F817A0 /* JRTAppDelegate.m in Sources */,
 				601C724F18A6C3BB00F817A0 /* JRTDetailViewController.m in Sources */,
+				601C727218A6C7C800F817A0 /* JRTAnimationController.m in Sources */,
+				601C726F18A6C42F00F817A0 /* JRTMasterCell.m in Sources */,
 				601C724C18A6C3BB00F817A0 /* JRTMasterViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -1,5 +1,5 @@
 //
-//  JRTDetailViewController.h
+//  JRTMasterCell.h
 //  TransitionExample
 //
 //  Created by Vertical Turtle on 08/02/2014.
@@ -8,11 +8,10 @@
 
 #import <UIKit/UIKit.h>
 
-@interface JRTDetailViewController : UIViewController
-
-@property (strong, nonatomic) IBOutlet UIView *redView;
+@interface JRTMasterCell : UITableViewCell
 @property (strong, nonatomic) IBOutlet UILabel *label1;
 @property (strong, nonatomic) IBOutlet UILabel *label2;
 @property (strong, nonatomic) IBOutlet UILabel *label3;
+@property (strong, nonatomic) IBOutlet UIView *view;
 
 @end
